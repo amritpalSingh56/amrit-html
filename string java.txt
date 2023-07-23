@@ -1,0 +1,49 @@
+//topic string
+public class Main 
+{
+    public static void main(String [] args)
+    {   
+        
+        //create string
+        String strempty1="";//string literal
+    
+        String str1 = "hello"; 
+        System.out.println(""+strempty1+""+str1);
+        
+        //new keyword
+        String str2= new String(); //empty String
+        String str3= new String("hello");
+        
+         System.out.println(""+str2+""+str3);
+         
+         
+         char name[]={'h','e','l','l','o'};   //string array 
+         String str4=new String(name);    
+         System.out.println(""+str4);
+         
+         int x=str4.length();
+          System.out.println(""+x);
+
+       //concat - 1. +opeartor
+         
+       String str5,str6,str7;
+         str5 = "java ";
+         str6 = "programming";
+         str7 = str4+str5;
+        System.out.println(""+str7);
+        int n= 12;
+        System.out.println(n+""+str7);
+        int n1= 20;
+        System.out.println(n+n1+""+str7);
+        
+        System.out.println(""+str7+""+n+n1);   //concat
+          
+          System.out.println(str7+""+n+n1+""+str7);  
+          
+    }
+}
+
+
+
+
+
